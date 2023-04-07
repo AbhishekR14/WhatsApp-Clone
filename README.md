@@ -1,4 +1,4 @@
-This is practice Project where i cloned the WhatsApp Web Apllication.
+This is practice Project where i have cloned the WhatsApp Web Apllication.
 
 Open the "Main.html" file to see the clone.
 
