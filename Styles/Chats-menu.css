@@ -1,0 +1,127 @@
+.profile-pic{
+    display: flex;
+    flex:1;
+    padding: 10px 15px 10px 15px;
+}
+.chats-nav{
+    display: flex;
+    height: 60px;
+}
+.profile-pic img{
+    width:40px;
+    height:40px;
+    border-radius: 20px;
+}
+.more-options{
+    display:flex;
+    padding: 10px 15px 10px 15px;
+    align-items: center;
+}
+.more-options img{
+    width:24px;
+    height:24px;
+    border-radius: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.chats-box{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(17,27,33);
+}
+.search-box{
+    height: 40px;
+    padding-top: 10px;
+}
+.chat-search-bar{
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.search-bar{
+    display: flex;
+    flex: 1;
+    height: 30px;
+    background-color: #202C33;
+    padding: 0px 0px;
+    border-width: 0px 0px;
+}
+.search-bar::placeholder{
+    color:rgb(144, 180, 212);
+}
+
+.search-chat-icon{
+    width: 60px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #202C33;
+}
+.chat{
+    height: 75px;
+    display: flex;
+}
+.chat-profile-pic{
+    padding: 10px 15px 10px 15px;
+}
+.chat-profile-pic img{
+    width:50px;
+    height:50px;
+    border-radius: 25px;
+}
+.chat-name-text{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 15px 0px 15px 5px;
+    max-width: 330px;
+    border: rgba(255,255,255, 0.1);
+    border-width:0.01em;
+    border-bottom-style: solid;
+}
+.chat-name{
+    font-size:17px;
+    font-weight: 600;
+}
+.chat-text{
+    padding-top: 5px;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: 500;
+}
+.read-chat-name{
+    font-size:17px;
+    font-weight: 400;
+}
+.read-chat-text{
+    padding-top: 5px;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: 300;
+    color: rgb(209, 204, 204);
+}
+.chat-time{
+    padding-top: 15px;
+    font-size: 12px;
+    border: rgba(255,255,255, 0.1);
+    border-width:0.01em;
+    border-bottom-style: solid;
+}
+.all-chats{
+    overflow:auto; 
+    max-height: 83.7vh;
+}
+.all-chats::-webkit-scrollbar {
+    width: 5px;
+}  
+.all-chats::-webkit-scrollbar-track {
+    background: rgb(17,27,33); 
+}
+.all-chats::-webkit-scrollbar-thumb {
+    background: rgb(55,64,69); 
+}

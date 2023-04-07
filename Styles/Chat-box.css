@@ -1,0 +1,119 @@
+.chatbox{
+    overflow: auto;
+}
+.chatbox::-webkit-scrollbar {
+    width: 5px;
+}  
+.chatbox::-webkit-scrollbar-track {
+    background-color: rgb(11,20,26);
+}
+.chatbox::-webkit-scrollbar-thumb {
+    background: rgb(55,64,69); 
+}
+.date-box{
+    height: 44px;
+    display: flex;
+    justify-content: center;
+}
+.date{
+    display: flex;
+    align-items: center;
+    height: 16px;
+    background-color: rgb(24,34,41);
+    padding: 5px 12px 6px;
+    border-radius: 6px;
+}
+.received-texts-box{
+    display: flex;
+    padding-left: 50px;
+    margin-bottom: 12px;
+}
+.received-text{
+    background-color: rgb(32,44,51);
+    display: flex;
+    flex-direction: column;
+    padding: 5px 12px 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 6px 8px 8px 9px;
+    position: relative;
+}
+.received-texter-text-time{
+    display: flex;
+}
+.received-texter-name{
+    font-size: 13px;
+    padding-bottom: 4px;
+    color: aqua;
+}
+.received-texter-text{
+    font-size: 15px;
+}
+.texter-time{
+    font-size: 11px;
+    position: absolute;
+    bottom: 4px;
+    right: 8px;
+    color: rgb(199, 198, 198);
+}
+.sender-time{
+    font-size: 11px;
+    position: absolute;
+    bottom: 4px;
+    right: 20px;
+    color: rgb(199, 198, 198);
+}
+.sender-tick-marks{
+    position: absolute;
+    bottom: 0px;
+    right: 4px;
+}
+.sender-texts-box{
+    display: flex;
+    padding-right: 50px;
+    justify-content: right;
+    margin-bottom: 12px;
+}
+.sender-text{
+    background-color: rgb(32,44,51);
+    display: flex;
+    padding: 5px 12px 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    padding: 6px 8px 8px 9px;
+    position: relative;
+}
+.sender-texter-text{
+    font-size: 15px;
+}
+.received-continous-texts-box{
+    display: flex;
+    padding-left: 50px;
+    justify-content: left;
+    margin-bottom: 12px;
+    margin-top: -10px;
+}
+.received-continous-text{
+    background-color: rgb(32,44,51);
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    padding: 6px 8px 8px 9px;
+    position: relative;
+}
+.sender-continous-texts-box{
+    display: flex;
+    padding-right: 50px;
+    justify-content: right;
+    margin-bottom: 12px;
+    margin-top: -10px;
+}
+.sender-continous-text{
+    background-color: rgb(32,44,51);
+    display: flex;
+    border-radius: 6px;
+    padding: 6px 8px 8px 9px;
+    position: relative;
+}

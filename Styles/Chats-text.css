@@ -1,0 +1,78 @@
+.chat-opened-topbar{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    background-color: rgb(32,44,51);
+}
+.chat-opened-profile-pic{
+    padding: 10px 15px 10px 15px;
+    width: 41px;
+}
+.chat-opened-profile-pic img{
+    width:40px;
+    height:40px;
+    border-radius: 20px;
+}
+.chat-opened-more-options{
+    display:flex;
+    padding: 10px 15px 10px 15px;
+    align-items: center;
+}
+.chat-opened-more-options img{
+    width:24px;
+    height:24px;
+    border-radius: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.chat-opened-name-desc{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.chat-opened-name{
+    font-size: 16px;
+}
+.chat-opened-desc{
+    font-size: 13px;
+    color: rgb(224, 224, 224);
+    padding-top: 5px;
+    white-space: nowrap;
+}
+.chat-typing-box{
+    margin-top: auto;
+    height: 65px;
+    display: flex; 
+    background-color: rgb(32,44,51);
+    align-items: center;
+}
+.emoji-attchment-icon img{
+    width:30px;
+    height:30px;
+    border-radius: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.texting-box{
+    display: flex;
+    flex: 1;
+
+}
+.text-typing-box::placeholder{
+    color:rgb(144, 180, 212);
+    padding: 10px 15px 10px 15px;
+}
+.text-typing-box{
+    display: flex;
+    flex: 1;
+    height: 40px;
+    background-color: #486474;
+    padding: 0px 0px;
+    border-width: 0px 0px;
+    border-radius: 6px;
+    color: white;
+}
+.mic-icon{
+    padding-left: 10px;
+    padding-right: 10px;
+}
