@@ -11,18 +11,27 @@
     width:40px;
     height:40px;
     border-radius: 20px;
+    cursor:pointer;
 }
 .more-options{
     display:flex;
     padding: 10px 15px 10px 15px;
     align-items: center;
 }
+.communities , .status , .chatpic , .more{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    margin-left: 10px;
+    margin-left: 10px;
+}
 .more-options img{
-    width:24px;
-    height:24px;
-    border-radius: 12px;
+    width: 24px;
+    height: 22px;
     padding-right: 8px;
     padding-left: 8px;
+    cursor:pointer;
 }
 .chats-box{
     display: flex;
@@ -31,7 +40,7 @@
 }
 .search-box{
     height: 40px;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 .chat-search-bar{
     display: flex;
@@ -41,26 +50,45 @@
 .search-bar{
     display: flex;
     flex: 1;
-    height: 30px;
+    height: 35px;
     background-color: #202C33;
     padding: 0px 0px;
     border-width: 0px 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor:default;
+    color: rgb(227, 233, 238);
 }
 .search-bar::placeholder{
-    color:rgb(144, 180, 212);
+    color:rgb(134,150,160);
 }
 
 .search-chat-icon{
     width: 60px;
-    height: 30px;
+    height: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #202C33;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    cursor:pointer;
 }
 .chat{
     height: 75px;
     display: flex;
+    position: relative;
+    cursor:pointer;
+}
+.chat:hover{
+    background-color: #263037;
+}
+.opened-chat{
+    height: 75px;
+    display: flex;
+    position: relative;
+    cursor:pointer;
+    background-color: rgb(42,57,66);
 }
 .chat-profile-pic{
     padding: 10px 15px 10px 15px;
@@ -74,8 +102,9 @@
     display: flex;
     flex: 1;
     flex-direction: column;
-    padding: 15px 0px 15px 5px;
+    padding: 15px 0px 10px 5px;
     max-width: 330px;
+    min-width: 200px;
     border: rgba(255,255,255, 0.1);
     border-width:0.01em;
     border-bottom-style: solid;
@@ -102,8 +131,18 @@
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-    font-weight: 300;
+    font-weight: 400;
     color: rgb(209, 204, 204);
+
+}
+.unread-chat-time{
+    padding-top: 15px;
+    font-size: 12px;
+    border: rgba(255,255,255, 0.1);
+    border-width:0.01em;
+    border-bottom-style: solid;
+    color:rgb(0,168,132);
+    font-weight: 600;
 }
 .chat-time{
     padding-top: 15px;
@@ -111,10 +150,11 @@
     border: rgba(255,255,255, 0.1);
     border-width:0.01em;
     border-bottom-style: solid;
+    color: rgb(177, 177, 177);
 }
 .all-chats{
-    overflow:auto; 
-    max-height: 83.7vh;
+     overflow:auto; 
+     max-height: 87vh;
 }
 .all-chats::-webkit-scrollbar {
     width: 5px;
@@ -124,4 +164,17 @@
 }
 .all-chats::-webkit-scrollbar-thumb {
     background: rgb(55,64,69); 
+}
+.green-dot{
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+    border-radius: 10px;
+}
+.unread-number{
+    position: absolute;
+    bottom: 22px;
+    right: 31px;
+    color: black;
+    font-size: 13px;
 }

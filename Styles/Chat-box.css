@@ -12,6 +12,7 @@
 }
 .date-box{
     height: 44px;
+    margin-top: 5px;
     display: flex;
     justify-content: center;
 }
@@ -22,6 +23,9 @@
     background-color: rgb(24,34,41);
     padding: 5px 12px 6px;
     border-radius: 6px;
+    cursor:default;
+    color: rgb(134,150,160);
+    font-size: 12.5px;
 }
 .received-texts-box{
     display: flex;
@@ -38,6 +42,8 @@
     border-top-right-radius: 6px;
     padding: 6px 8px 8px 9px;
     position: relative;
+    cursor:default;
+    font-size: 14.2px;
 }
 .received-texter-text-time{
     display: flex;
@@ -45,10 +51,14 @@
 .received-texter-name{
     font-size: 13px;
     padding-bottom: 4px;
-    color: aqua;
+    cursor:pointer;
+}
+.received-texter-name:hover{
+    text-decoration: underline;
 }
 .received-texter-text{
-    font-size: 15px;
+    font-size: 12px;
+    cursor:default;
 }
 .texter-time{
     font-size: 11px;
@@ -63,6 +73,7 @@
     bottom: 4px;
     right: 20px;
     color: rgb(199, 198, 198);
+    cursor:default;
 }
 .sender-tick-marks{
     position: absolute;
@@ -86,7 +97,11 @@
     position: relative;
 }
 .sender-texter-text{
-    font-size: 15px;
+    font-size: 13.5px;
+    cursor:default;
+}
+.texter-text{
+    font-size: 13.5px;
 }
 .received-continous-texts-box{
     display: flex;

@@ -1,5 +1,5 @@
 *{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma;
  }
 body{
     background-color: #111b21;
@@ -8,26 +8,55 @@ body{
     color: white;
     display: flex;
 }
-main{
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    top: 20px;
-    bottom: 20px;
-    right: 10px;
-    left: 10px;
+@media (min-width:1440px){
+    main{
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        top: 20px;
+        bottom: 20px;
+        right: 10px;
+        left: 10px;
+    }
+}
+@media (max-width:1440px){
+    main{
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        top: 0px;
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
+    }
 }
 
-.chats{
-    display: flex;
-    background-color: #202C33;
-    flex: 1;
-    max-width: 480px;
-    flex-direction: column;
-    border: rgba(255,255,255, 0.15);
-    border-width:0.01em;
-    border-right-style: solid;
+@media (max-width:1440px){
+    .chats{
+        display: flex;
+        background-color: #202C33;
+        flex: 1;
+        max-width: 425px;
+        flex-direction: column;
+        border: rgba(255,255,255, 0.15);
+        border-width:0.01em;
+        border-right-style: solid;
+    }
 }
+
+@media (min-width:1440px){
+    .chats{
+        display: flex;
+        background-color: #202C33;
+        flex: 1;
+        max-width: 480px;
+        flex-direction: column;
+        border: rgba(255,255,255, 0.15);
+        border-width:0.01em;
+        border-right-style: solid;
+    }
+}
+
 
 .chat-texting-box{
     display: flex;
