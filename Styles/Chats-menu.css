@@ -153,8 +153,8 @@
     color: rgb(177, 177, 177);
 }
 .all-chats{
-     overflow:auto; 
-     max-height: 87vh;
+     overflow:auto;
+     max-height: 95vh;
 }
 .all-chats::-webkit-scrollbar {
     width: 5px;
